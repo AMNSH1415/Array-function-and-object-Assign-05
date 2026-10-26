@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Array, Function, Object</title>
+</head>
+<body>
+    <h1>Assignment no.05</h1>
+    <h2>{Student Name: Aimon Sheikh}</h2>
+    <hr>
+
+
+    <h2>Question no.01</h2>
+    <p>Array: Create an array of five numbers and print all elements.</p>
+    <h2>Solution:</h2>
+    <p>let numbers = [10, 20, 30, 40, 50];
+        console.log(numbers);</p><hr>
+
+        <h2>Question no.02</h2>
+        <p>Array: Create an array of three fruits and print the first and last elements.</p>
+        <h2>Solution:</h2>
+        <p>let fruits = ["Apple", "Banana", "Orange"];
+
+console.log(fruits[0]);
+console.log(fruits[2]);</p>
+<hr>
+
+<h2>Question no.03</h2>
+<p>Array: Add "Mango" to the end of an array using push().</p>
+<h2>Solution:</h2>
+<p>let fruit = ["Apple", "Banana", "Orange"];
+        fruit.push("Mango");
+        console.log(fruit);</p>
+        <hr>
+
+        <h2>Question no.04</h2>
+<p>Array: Find the length of the following array.</p>
+<h2>Solution:</h2>
+<p>let number = [10, 20, 30, 40, 50];
+        console.log(numbers.length);</p>
+        <hr>
+
+        <h2>Question no.05</h2>
+<p>Function: Write a function that prints "Hello World".</p>
+<h2>Solution:</h2>
+<p>function greet() {
+    console.log("Hello World");
+}
+
+greet();</p>
+<hr>
+
+<h2>Question no.06</h2>
+<p>Function: Write a function that takes two numbers as parameters and prints their sum.</p>
+<h2>Solution:</h2>
+<p>function add(a, b) {
+    console.log(a + b);
+}
+
+add(10, 20);</p>
+<hr>
+
+<h2>Question no.07</h2>
+<p>Function: Write a function that takes a number and returns its square.</p>
+<h2>Solution:</h2>
+<p>function square(num) {
+    return num * num;
+}
+
+console.log(square(5));</p>
+<hr>
+
+<h2>Question no.08</h2>
+<p>Function: Write a function that checks whether a number is even or odd.</p>
+<h2>Solution:</h2>
+<p>function EvenOdd(num) {
+            if (num % 2 === 0) {
+                console.log("Even");
+            }
+            else {
+                console.log("Odd");
+            }
+        }
+        EvenOdd(8);</p>
+<hr>
+
+<h2>Question no.09</h2>
+<p>Basic Function: Write a function to find the largest of two numbers.</p>
+<h2>Solution:</h2>
+<p>function findLargest(a, b) {
+    if (a > b) {
+        console.log(a);
+    } else if (b > a) {
+        console.log(b);
+    } else {
+        console.log("Both numbers are equal");
+    }
+}
+
+findLargest(15, 25);</p>
+<hr>
+
+<h2>Question no.10</h2>
+<p>Basic Function: Write a function that takes a name as an argument and prints a welcome message.</p>
+<h2>Solution:</h2>
+<p>function welcome(name) {
+    console.log("Welcome " + name);
+}
+
+welcome("Ali");</p>
+<hr>
+
+<h2>Question no.11</h2>
+<p>Object: Create a student object with name, age, and class properties. Print all three properties.</p>
+<h2>Solution:</h2>
+<p>let student = {
+    name: "Ali",
+    age: 18,
+    class: "10th"
+};
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.class);</p>
+<hr>
+
+<h2>Question no.12</h2>
+<p>Object: Create a car object with brand, model, and color properties. Print the car's brand.</p>
+<h2>Solution:</h2>
+<p>let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    color: "Black"
+};
+
+console.log(car.brand);</p>
+<hr>
+
+<h2>Question no.13</h2>
+<p>Object: Update the age of the following student object to 20 and print it.</p>
+<h2>Solution:</h2>
+<p>let students = {
+            name: "Ali",
+            age: 18
+        };
+        student.age = 20;
+        console.log(students.age);</p>
+<hr>
+
+<h2>Question no.14</h2>
+<p>Array, Function, and Object: Create a student object with name and marks properties. Write a function that prints the student's name and marks.</p>
+<h2>Solution:</h2>
+<p>let stud = {
+            name: "Ali",
+            marks: 87
+        };
+        function printStudent(student) {
+            console.log("Name: " + student.name);
+            console.log("Marks: " + student.marks);
+        }
+        printStudent(stud);</p>
+<hr>
+
+    <script> 
+        let numbers = [10, 20, 30, 40, 50];
+        console.log(numbers);
+
+        let fruits = ["Apple", "Banana", "Orange"];
+        console.log(fruits[0]);
+        console.log(fruits[2]);
+
+        let fruit = ["Apple", "Banana", "Orange"];
+        fruit.push("Mango");
+        console.log(fruit);
+
+        let number = [10, 20, 30, 40, 50];
+        console.log(numbers.length);
+
+        function greet() {
+            console.log("Hello World");
+        }
+        greet();
+
+        function add(a, b) {
+            console.log(a + b);
+        }
+        add(10, 20);
+
+        function square(num) {
+            return num * num;
+        }
+        console.log(square(5));
+
+        function EvenOdd(num) {
+            if (num % 2 === 0) {
+                console.log("Even");
+            }
+            else {
+                console.log("Odd");
+            }
+        }
+        EvenOdd(8);
+
+        function findLargest(a, b) {
+            if (a > b) {
+                console.log(a);
+            } else if (b > a) {
+                console.log(b);
+            } else {
+                console.log("Both numbers are equal");
+            }
+        }
+        findLargest(15, 25);
+
+        function welcome(name) {
+            console.log("Welcome " + name);
+        }
+        welcome("Ali");
+
+        let student = {
+            name: "Ali",
+            age: 18,
+            class: "10th"
+        };
+        console.log(student.name);
+        console.log(student.age);
+        console.log(student.class);
+
+        let car = {
+            brand: "Toyota",
+            model: "Corolla",
+            color: "Black"
+        };
+            console.log(car.brand);
+
+       let students = {
+        name: "Ali",
+        age: 18
+    };
+    students.age = 20;
+    console.log(students.age);
+
+        let stud = {
+            name: "Ali",
+            marks: 87
+        };
+        function printStudent(student) {
+            console.log("Name: " + student.name);
+            console.log("Marks: " + student.marks);
+        }
+        printStudent(stud);
+
+    </script>
+</body>
+</html>
